@@ -163,7 +163,7 @@
 								<li>Présence de:
 								<ul>
 									<li>logiciels compilés avec une faille</li>
-									<li>serveurs non mis-à-jour</li>
+									<li>serveurs non mis à jour</li>
 								</ul></li>
 							</ul>
 						</section>
@@ -177,7 +177,6 @@
 						</section>
 						<section>
 						<h4>La solution ?</h4>
-						<p>Côté serveur:</p>
 						<ul>
 							<li>Chiffrer</li>
 							<li>Chiffrer</li>
@@ -224,7 +223,7 @@
 							<tr><td>...</td><td>...</td></tr>
 							</table>
 							</pre>
-							<p>Ajouter un salt fixe est toujours pas assez sécurisé</p>
+							<p>Ajouter un salt fixe n'est toujours pas assez sécurisé</p>
 						</section>
 						<section>
 							<h4>Les bases de la sécurité pour l'ingénieur logiciel</h4>
@@ -245,7 +244,7 @@
 						<section>
 							<h4>Les bases de la sécurité pour l'ingénieur logiciel</h4>
 							<p>bcrypt</p>
-							<p>Pour stocker les mots de passes, il faut utiliser <a href="http://www.usenix.org/events/usenix99/provos.html">bcrypt</a>.</p>
+							<p>Pour stocker les mots de passe, il faut utiliser <a href="http://www.usenix.org/events/usenix99/provos.html">bcrypt</a>.</p>
 							<pre><code class="py" data-trim contenteditable>
 from bcrypt import hashpw, gensalt
 hashed = hashpw(plaintext_password, gensalt())
